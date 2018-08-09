@@ -22,4 +22,5 @@ RUN set -x && \
 # install firebase-cli
 # use --unsafe-perm to solve the issue: https://github.com/firebase/firebase-tools/issues/372
 RUN npm install -g firebase-tools --unsafe-perm
+# install serverless framework
 RUN npm install -g serverless
