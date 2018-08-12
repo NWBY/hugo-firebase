@@ -1,7 +1,7 @@
 FROM node:9.3.0-alpine
 
 # labels
-LABEL maintainer="nohitme@gmail.com"
+LABEL maintainer="sam.newby19@icloud.com"
 
 # variables
 ENV HUGO_VERSION 0.46
@@ -22,5 +22,3 @@ RUN set -x && \
 # install firebase-cli
 # use --unsafe-perm to solve the issue: https://github.com/firebase/firebase-tools/issues/372
 RUN npm install -g firebase-tools --unsafe-perm
-# install serverless framework
-RUN npm install -g serverless
