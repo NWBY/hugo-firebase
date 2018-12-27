@@ -1,4 +1,4 @@
-FROM node:9.3.0-alpine
+FROM node:11.6.0-alpine
 
 # labels
 LABEL maintainer="sam.newby19@icloud.com"
