@@ -2,4 +2,4 @@
 
 This dockerfile comes with the static-site generator Hugo and Firebase tools.
 
-Hugo version 0.49
+Hugo version 0.53
