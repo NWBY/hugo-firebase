@@ -1,5 +1,5 @@
-# Dockerfile with Hugo and Firebase
+# Dockerfile with Hugo and Firebase:fire:
 
-This dockerfile comes with the static-site generator Hugo and Firebase tools.
+This dockerfile comes with the static-site generator Hugo and Firebase tools installed.
 
-Hugo version 0.53
+This image uses Hugo version 0.53 and will automatically install the latest version of Firebase.
