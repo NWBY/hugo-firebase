@@ -4,6 +4,8 @@ This dockerfile comes with the static-site generator Hugo and Firebase tools ins
 
 This image uses Hugo version 0.53 and will automatically install the latest version of Firebase.
 
+# Usage
+
 Example usage on Gitlab Runner:
 ```
 image: nwbyio/hugo-firebase
