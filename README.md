@@ -13,5 +13,17 @@ image: nwbyio/hugo-firebase
 before_script:
   - hugo version
   - firebase --version
+
+stages:
+  - deploy
+  
+pages:
+  stage: deploy
+  script:
+    - hugo
+    - firebase deploy --token $FIREBASE_DEPLOY_TOKEN --only hosting --project PROJECT_NAME
+  artifacts:
+    paths:
+      - public
 ```
 Running the version commands for hugo and firebase will allow you to see that you have the latest version of these tools installed.
