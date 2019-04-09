@@ -2,6 +2,8 @@
 
 This dockerfile comes with the static-site generator Hugo and Firebase tools installed.
 
+Personally used on my own website: https://nwby.io/
+
 This image uses Hugo version 0.53 and will automatically install the latest version of Firebase.
 
 # Usage
